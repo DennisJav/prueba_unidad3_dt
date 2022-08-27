@@ -34,11 +34,11 @@ public class DetalleVenta {
 	
 	
 	
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "deta_vent_id")
 	private Venta venta;
 
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "deta_prod_id")
 	private Producto producto;
 
