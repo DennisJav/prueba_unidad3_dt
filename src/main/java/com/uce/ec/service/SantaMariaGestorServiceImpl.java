@@ -91,7 +91,7 @@ public class SantaMariaGestorServiceImpl implements ISantaMariaGestorService{
 				listaDeta.add(deta);
 				
 			}else {
-				//throw new RuntimeException();
+				throw new RuntimeException();
 			}
 			
 		}
